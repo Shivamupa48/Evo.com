@@ -1,0 +1,109 @@
+.tabcontent {
+   display: none;
+   width: 98.5%;
+ }
+ .tabcontent p {
+   color: #a4a4a4;
+ }
+ .tabcontent button {
+   padding: 10px;
+   width: 124px;
+   height: 38px;
+   background-color: transparent;
+   gap: 0px;
+   border-radius: 19px;
+   border: 1px solid #327fc6;
+   opacity: 0px;
+   margin: 50px;
+ }
+ .tabcontent button a {
+   font-family: Poppins;
+   font-size: 14px;
+   font-weight: 700;
+   text-decoration: none;
+   color: white;
+ }
+ .container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 98.5%;
+ }
+ 
+ .center {
+   display: flex;
+   justify-content: center;
+   width: 98.5%;
+   align-items: center;
+   margin-top: 50px;
+   margin-left: 150px;
+   margin-bottom: 50px;
+ }
+ 
+ .column {
+   display: flex;
+   flex-direction: column;
+   margin-right: 20px;
+   width: 98.5%;
+ }
+ .column a {
+   font-size: 20px;
+ }
+ .tablinks {
+   color: black;
+   padding: 10px 0;
+   text-decoration: none;
+ }
+ 
+ .tablinks:hover {
+   background-color: #f2f2f2;
+   color: #327fc6;
+ }
+ 
+ .active {
+   background-color: transparent;
+   color: #327fc6;
+   font-size: 20px;
+ }
+ .tabcontent {
+   display: none;
+ }
+ 
+ .tabcontent h1 {
+   margin-top: 20px;
+ }
+ 
+ .tabcontent p {
+   margin-bottom: 10px;
+ }
+ 
+ .tabcontent button {
+   padding: 10px 20px;
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ .tabcontent button:hover {
+   background-color: #0056b3;
+ }
+ 
+ .tabcontent input[type="email"],
+ .tabcontent input[type="text"] {
+   width: 60%;
+   padding: 8px;
+   margin-top: 5px;
+   margin-bottom: 10px;
+   background: #e0f0ff;
+   border: none;
+ }
+ .tabcontent input[type="text"] {
+   height: 200px;
+ }
+ .tabcontent label {
+   display: block;
+   font-weight: bold;
+   margin-bottom: 5px;
+ }
+ 
